@@ -3,6 +3,7 @@ form {
   gap: 1rem;
   flex-wrap: wrap;
   padding-inline: 4px;
+  margin-bottom: 2.5rem;
 
   & input[type="text"] {
     all: unset;

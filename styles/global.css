@@ -65,3 +65,7 @@ a {
 .input-error {
   border-color: var(--color-danger);
 }
+
+.hidden {
+  display: none;
+}

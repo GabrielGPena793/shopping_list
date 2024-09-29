@@ -27,26 +27,25 @@
         <h1>Compras da semana</h1>
       </header>
 
-      <form>
-        <input type="text" placeholder="Adicione um novo item" required />
-        <button type="submit">Adicionar item</button>
+      <form id="form_task">
+        <input
+          id="task_title"
+          type="text"
+          placeholder="Adicione um novo item"
+          required
+        />
+        <button id="add_task" type="submit">Adicionar item</button>
       </form>
 
-      <div id="container_tasks">
-        <div class="task">
-          <div class="container_input">
-            <input class="check" type="checkbox" id="check" />
-            <label for="check">Pão de forma</label>
-          </div>
-          <img src="./assets/trash.svg" alt="icone de lixeira" />
-        </div>
+      <div id="container_tasks"></div>
 
-        <div class="remove_message">
-          <img src="./assets/alert.svg" alt="icone de alerta" />
-          <span>O item foi removido da lista</span>
-          <img src="./assets/close.svg" alt="icone de X" />
-        </div>
+      <div id="removed" class="remove_message hidden">
+        <img src="./assets/alert.svg" alt="icone de alerta" />
+        <span>O item foi removido da lista</span>
+        <img id="close" src="./assets/close.svg" alt="icone de X" />
       </div>
     </main>
+
+    <script src="./script.js"></script>
   </body>
 </html>

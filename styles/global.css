@@ -23,6 +23,33 @@
 
   --title: 700 1.5rem/2rem var(--ff-base);
   --label: 600 1rem/1.25rem var(--ff-base);
-  --title: 400 1rem/1.25rem var(--ff-base);
-  --title: 400 0.875rem/1rem var(--ff-base);
+  --paragraph: 400 1rem/1.25rem var(--ff-base);
+  --link: 400 0.875rem/1rem var(--ff-base);
+}
+
+body {
+  background: var(--background-primary);
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.875rem;
+
+  & > img {
+    margin: auto;
+    padding-top: 1.5625rem;
+  }
+
+  & main {
+    max-width: 39.1875rem;
+    margin-inline: auto;
+    width: 100%;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.input-error {
+  border-color: var(--color-danger);
 }

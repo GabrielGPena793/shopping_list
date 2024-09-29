@@ -13,5 +13,10 @@
 
   & img[src*="close"] {
     margin-left: auto;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
   }
 }

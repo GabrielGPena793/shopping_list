@@ -44,6 +44,18 @@ body {
     margin-inline: auto;
     width: 100%;
   }
+
+  @media (width < 80em) {
+    padding-top: 4rem;
+
+    & > img {
+      display: none;
+    }
+
+    & main {
+      padding-inline: 2rem;
+    }
+  }
 }
 
 a {
